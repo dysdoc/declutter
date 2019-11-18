@@ -15,8 +15,7 @@ Both development and test data are distributed as *CSV with UTF-8 encoding and s
 #### Sample line
 ```"FR974";"Line";"https://github.com/nnovielli/jabref/blob/master/src/main/java/org/jabref/gui/maintable/CellFactory.java";95;"https://github.com/nnovielli/jabref/blob/master/src/main/java/org/jabref/gui/maintable/CellFactory.java#L95";"icon.setToolTipText(printedViewModel.getLocalization());";"yes"```
 
-The Development data .csv contains 1050 rows with 7 columns and can be downloaded from this repository. 
-
+The Development dataset [declutter-gold_DevelopmentSet.csv](https://github.com/dysdoc/declutter/blob/master/declutter-gold_DevelopmentSet.csv) contains 1050 rows and the 7 columns described above. 
 
 ### Evaluation and Ranking
 Tools will be ranked according to commonly accepted text classification scoring, e.g. Accuracy, Precision, Recall, Matthews Correlation. We may also award a prize for the tool which does best in some hitherto unappreciated dimension. DeClutter will be run as automatically as possible, using Kaggle as a leaderboard mechanism. This is a great opportunity for new researchers to get involved in the topic.
