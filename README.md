@@ -1,6 +1,6 @@
 # Decluttering Challenge (DeClutter)
 
-NB: Technical details such as format and evaluation metrics subject to change
+In the scope of [DocGen2, the Second Software Documentation Generation Challenge](https://dysdoc.github.io/docgen2/index.html), hosted by [ICSME 2020](https://icsme2020.github.io/index.html).
 
 ### Task Description
 The goal of the DeClutter challenge is to build an automated tool that can identify unnecessary software 
@@ -9,11 +9,13 @@ exactly that is not helpful, and worse, could drift when the underlying code is 
 The tool should take in a CSV file in the [described format](https://dysdoc.github.io/docgen2/decluttr-format.html), and output a label for each row as either "Non-information = Yes" for clutter, non-informative comments and "Non-information = No" for non-clutter ones.
 
 ### Data Description
-Both development and test data are distributed as *CSV with UTF-8 encoding and semicolon as separator*.  in the following format
-“id, type, path_to_file, begin_line, link_to_comment, comment, non-information”
+Both development and test data are distributed as *CSV with UTF-8 encoding and semicolon as separator*.  in the following format 
+“id, type, path_to_file, begin_line, link_to_comment, comment, non-information” 
 
 #### Sample line
 ```"FR974";"Line";"https://github.com/nnovielli/jabref/blob/master/src/main/java/org/jabref/gui/maintable/CellFactory.java";95;"https://github.com/nnovielli/jabref/blob/master/src/main/java/org/jabref/gui/maintable/CellFactory.java#L95";"icon.setToolTipText(printedViewModel.getLocalization());";"yes"```
+
+The Development data .csv contains 1050 rows with 7 columns and can be downloaded from this repository. 
 
 
 ### Evaluation and Ranking
