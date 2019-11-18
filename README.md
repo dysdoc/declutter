@@ -16,7 +16,6 @@ Our definition grounds on the [CADO](https://cado.informatik.uni-hamburg.de/codi
 
 Our annotation unit is the entire comment. Consistently with the CADO guidelines, if a comment contains both uninformative and informative sentences, we consider that the uninformative part of the sentence is only context for the informative part, and we rate the comment as 'Non-information = No' (i.e., the comment is informative). 
 
-
 ### Data Description
 Both development and test data are distributed as *CSV with UTF-8 encoding*.  in the following format 
 “id, type, path_to_file, begin_line, link_to_comment, comment, non-information” 
