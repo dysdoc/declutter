@@ -8,6 +8,15 @@ documentation at the class or file level. For example, a comment saying ```//loo
 exactly that is not helpful, and worse, could drift when the underlying code is changed to (N-1) (for example). As such, it is considered as non-informative and labeled as "Non-information = Yes". 
 The tool should take in a CSV file in the [described format](https://dysdoc.github.io/docgen2/decluttr-format.html), and output a label for each row as either "Non-information = Yes" for clutter, non-informative comments and "Non-information = No" for non-clutter ones.
 
+### Definition of Non-information
+In this study, we label as *Non-information* the comments that contain only non-information sentences. As such, the final criterion for annotation of non-information is defined as follows:
+“non-information is a comment that is completely uninformative and hence useless/should be removed (in the perspective of documentation decluttering)”. 
+
+Our definition grounds on the [CADO](https://cado.informatik.uni-hamburg.de/coding-guide/) guidelines for Content Analysis for Software Documentation, which defines as non-information "any complete sentence or self-contained fragment of text that provides only uninformative boilerplate text". Among examples, simply restating the name of the API element without adding any detail, or stating the obvious, or simply restating the information in the rest of the code block" [(Maleej and Robillard, TSE 2013)](https://dl.acm.org/citation.cfm?id=2554417). 
+
+Our annotation unit is the entire comment. Consistently with the CADO guidelines, if a comment contains both uninformative and informative sentences, we consider that the uninformative part of the sentence is only context for the informative part, and we rate the comment as 'Non-information = No' (i.e., the comment is informative). 
+
+
 ### Data Description
 Both development and test data are distributed as *CSV with UTF-8 encoding*.  in the following format 
 “id, type, path_to_file, begin_line, link_to_comment, comment, non-information” 
@@ -49,3 +58,6 @@ Report submission deadlines
 If you have any questions, please contact the challenge chairs
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The challenge dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+### References
+If you have any questions, please contact the challenge chairs
