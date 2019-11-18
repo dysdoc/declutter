@@ -9,7 +9,7 @@ exactly that is not helpful, and worse, could drift when the underlying code is 
 The tool should take in a CSV file in the [described format](https://dysdoc.github.io/docgen2/decluttr-format.html), and output a label for each row as either "Non-information = Yes" for clutter, non-informative comments and "Non-information = No" for non-clutter ones.
 
 ### Data Description
-Both development and test data are distributed as *CSV with UTF-8 encoding and semicolon as separator*.  in the following format 
+Both development and test data are distributed as *CSV with UTF-8 encoding*.  in the following format 
 “id, type, path_to_file, begin_line, link_to_comment, comment, non-information” 
 
 #### Sample line
