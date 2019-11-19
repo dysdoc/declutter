@@ -54,9 +54,7 @@ Report submission deadlines
 [Neil Ernst](http://www.neilernst.net/), University of Victoria, Canada
 
 ### Contacts
-If you have any questions, please contact the challenge chairs
+If you have any questions, please contact the challenge chairs.
 
+### License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The challenge dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-### References
-If you have any questions, please contact the challenge chairs
