@@ -38,14 +38,13 @@ We invite the potential participants to register using the [web form](https://fo
 ### Important Dates
 Timeline for the DeClutter Challenge
 * **15th November 2019:** Development data available to participants
-* **20th April 2020:** Test data available, registration closes
-* **4th May 2020:** System results due to organizers
-* **8th June 2020:** Assessment returned to participants
+* **20th May 2020:** Test data available, registration closes
+* **4th Aug 2020:** Kaggle competition closes
 
 Report submission deadlines
-* **10th July 2020:** Submission deadline for reports
-* **24th July 2020:** Notification deadline
-* **7th August 2020:** Camera-ready deadline (tentative)
+* **31st July 2020:** Submission deadline for reports
+* **14th August 2020:** Notification deadline
+* **28th August 2020:** Camera-ready deadline (tentative)
 * **September 2020:** [Workshop](https://dysdoc.github.io/docgen2/index.html) co-located with [ICSME 2020](https://icsme2020.github.io/index.html)
 
 ### Challenge Chairs
