@@ -23,10 +23,10 @@ Both development and test data are distributed as *CSV with UTF-8 encoding*.  in
 #### Sample line
 ```"FR974";"Line";"https://github.com/nnovielli/jabref/blob/master/src/main/java/org/jabref/gui/maintable/CellFactory.java";95;"https://github.com/nnovielli/jabref/blob/master/src/main/java/org/jabref/gui/maintable/CellFactory.java#L95";"icon.setToolTipText(printedViewModel.getLocalization());";"yes"```
 
-The Development dataset [declutter-gold_DevelopmentSet.csv](https://github.com/dysdoc/declutter/blob/master/declutter-gold_DevelopmentSet.csv) contains 1050 rows and the 7 columns described above. 
+The Development dataset [train_set_0520.csv](https://github.com/dysdoc/declutter/blob/master/train_set_0520.csv) contains 1311 rows and the 7 columns described above. Note: this dataset replaces declutter-gold_DevelopmentSet.csv (adding 261 new datapoints).
 
 ### Evaluation and Ranking
-Tools will be ranked according to commonly accepted text classification scoring, e.g. Accuracy, Precision, Recall, Matthews Correlation. We may also award a prize for the tool which does best in some hitherto unappreciated dimension. DeClutter will be run as automatically as possible, using Kaggle as a leaderboard mechanism. This is a great opportunity for new researchers to get involved in the topic.
+Tools will be ranked according to commonly accepted text classification scoring, e.g. Accuracy, Precision, Recall, Matthews Correlation. We may also award a prize for the tool which does best in some hitherto unappreciated dimension. DeClutter will be run as automatically as possible, using Kaggle as a leaderboard mechanism. This is a great opportunity for new researchers to get involved in the topic. The Kaggle contest is located at https://www.kaggle.com/c/declutter20v2/overview/.
 
 Participants (either teams or individuals) will initially have access to the development data only. Later, the unlabelled test data will be released (see the timeline below). After the assessment, the labels for the test data will be released as well. Both development and test data will be extracted from the JabRef project. However, participants might use additional labeled data from other sources in order to develop and implement their systems. Guidelines describing the annotation and providing detailed instructions for participants will be released with the development data.
 
@@ -39,7 +39,7 @@ We invite the potential participants to register using the [web form](https://fo
 Timeline for the DeClutter Challenge
 * **15th November 2019:** Development data available to participants
 * **20th May 2020:** Test data available, registration closes
-* **4th Aug 2020:** Kaggle competition closes
+* **28th Aug 2020:** Kaggle competition closes
 
 Report submission deadlines
 * **31st July 2020:** Submission deadline for reports
