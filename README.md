@@ -38,7 +38,7 @@ We invite the potential participants to register using the [web form](https://fo
 ### Important Dates
 Timeline for the DeClutter Challenge
 * **15th November 2019:** Development data available to participants
-* **20th May 2020:** Test data available, registration closes
+* **20th May 2020:** Test data available
 * **28th Aug 2020:** Kaggle competition closes
 
 Report submission deadlines
